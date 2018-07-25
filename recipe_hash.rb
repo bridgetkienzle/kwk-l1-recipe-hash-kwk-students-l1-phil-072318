@@ -2,7 +2,7 @@
 
 #1. Create a hash called `perfect_10_recipe` that has the following data:
 
-$perfect_10_recipe = {"almond flour" => 2, "gluten freewhole oats" => 1, "kosher salt" => 0.5,
+perfect_10_recipe = {"almond flour" => 2, "gluten freewhole oats" => 1, "kosher salt" => 0.5,
 "baking powder" => 0.5, "baking soda" => 0.25, "Xanthan Gum" => 0.5, "slivered almonds, lightly toasted" => 0.25, "mini dark chocolate chips" => 0.75, "olive oil" => 0.5, "agave" => 0.25} 
 
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
@@ -20,7 +20,7 @@ end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 def ingredients_and_amounts(perfect_10_recipe)
-  puts $perfect_10_recipe.each
+  puts perfect_10_recipe.each
 end
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
